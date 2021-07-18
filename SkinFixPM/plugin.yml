@@ -1,0 +1,6 @@
+name: "SkinFixPM"
+author: "BlckqPlugins"
+version: "1.0.0"
+api: ["4.0.0"]
+description: "SkinFix for PocketMine"
+main: SkinFix\Main
