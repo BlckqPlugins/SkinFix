@@ -2,8 +2,8 @@
 
 namespace SkinFix\skin;
 use pocketmine\entity\Skin;
-use pocketmine\network\mcpe\convert\LegacySkinAdapter;
-use pocketmine\network\mcpe\protocol\types\skin\SkinData;
+use pocketmine\network\mcpe\protocol\types\LegacySkinAdapter;
+use pocketmine\network\mcpe\protocol\types\SkinData;
 
 
 /**

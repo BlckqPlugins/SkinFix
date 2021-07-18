@@ -2,8 +2,8 @@
 
 namespace SkinFix\skin;
 use pocketmine\entity\Skin;
-use pocketmine\network\mcpe\convert\LegacySkinAdapter;
-use pocketmine\network\mcpe\protocol\types\skin\SkinData;
+use pocketmine\network\mcpe\protocol\types\LegacySkinAdapter;
+use pocketmine\network\mcpe\protocol\types\SkinData;
 
 
 /**
@@ -13,7 +13,7 @@ use pocketmine\network\mcpe\protocol\types\skin\SkinData;
  * @date 24.07.2020 - 16:14
  * @project Core
  */
-class SkinAdapterPersona extends LegacySkinAdapter{
+class SkinAdapterPersona extends LegacySkinAdapter {
 	/**
 	 * Function fromSkinData
 	 * @param SkinData $data

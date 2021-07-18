@@ -2,8 +2,8 @@
 
 namespace SkinFix;
 
-use pocketmine\network\mcpe\convert\LegacySkinAdapter;
-use pocketmine\network\mcpe\convert\SkinAdapterSingleton;
+use pocketmine\network\mcpe\protocol\types\LegacySkinAdapter;
+use pocketmine\network\mcpe\protocol\types\SkinAdapterSingleton;
 use pocketmine\plugin\PluginBase;
 use SkinFix\skin\BetterSkinAdapter;
 
